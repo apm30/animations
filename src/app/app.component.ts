@@ -17,6 +17,5 @@ export class AppComponent {
   title = 'animations';
   onAnimate() {
     this.state === 'normal' ? this.state = 'moved' : this.state = 'normal';
-
   }
 }
